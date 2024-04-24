@@ -160,6 +160,7 @@ QList<BasePage*> NewInstanceDialog::getPages()
     pages.append(new AtlPage(this));
     if (APPLICATION->capabilities() & Application::SupportsFlame)
         pages.append(new FlamePage(this));
+    pages.append(new FtbPage(this));
     pages.append(new LegacyFTB::Page(this));
     pages.append(new FTBImportAPP::ImportFTBPage(this));
     pages.append(new ModrinthPage(this));
