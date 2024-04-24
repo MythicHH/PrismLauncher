@@ -58,6 +58,7 @@
 #include "ui/pages/modplatform/CustomPage.h"
 #include "ui/pages/modplatform/ImportPage.h"
 #include "ui/pages/modplatform/atlauncher/AtlPage.h"
+#include "ui/pages/modplatform/ftb/FtbPage.h"
 #include "ui/pages/modplatform/flame/FlamePage.h"
 #include "ui/pages/modplatform/legacy_ftb/Page.h"
 #include "ui/pages/modplatform/modrinth/ModrinthPage.h"
